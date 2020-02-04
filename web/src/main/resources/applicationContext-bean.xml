@@ -51,7 +51,7 @@
         <!--配置MyBatis核心配置文件的路径-->
         <property name="configLocation" value="classpath:mybatis/config.xml"/>
         <!--mapper文件的路径-->
-        <property name="mapperLocations" value="classpath:mappers/*.xml"/>
+        <property name="mapperLocations" value="classpath:com/bin/hbnu/mappers/*.xml"/>
     </bean>
 
     <!-- 将Mapper接口的代理对象交给IOC容器管理，配置Mapper接口扫描的包 -->
@@ -59,7 +59,7 @@
 
     <bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--注入SqlSessionFactory-->
-        <property name="basePackage" value="com.bin.hbnu.dao"/>
+        <property name="basePackage" value="com.bin.hbnu.mappers"/>
     </bean>
 
 

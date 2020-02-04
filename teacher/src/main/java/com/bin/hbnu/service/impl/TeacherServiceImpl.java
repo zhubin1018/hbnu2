@@ -1,7 +1,7 @@
 package com.bin.hbnu.service.impl;
 
 import com.bin.hbnu.bean.Teacher;
-import com.bin.hbnu.dao.TeacherMapper;
+import com.bin.hbnu.mappers.TeacherMapper;
 import com.bin.hbnu.service.TeacherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

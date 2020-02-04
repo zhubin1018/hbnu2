@@ -6,7 +6,7 @@
 namespace : 命名空间，根据namespace区分不同的sql映射文件的。暂时，这个namespace可以随意编写
 如果使用的是接口式编程，对应的namespace必须是接口的全类名
 -->
-<mapper namespace="com.bin.hbnu.dao">
+<mapper namespace="com.bin.hbnu.mappers.TeacherMapper">
 
     <!--    Teacher testById(int i);-->
     <select id="testById" resultMap="testResultMap">

@@ -1,4 +1,4 @@
-package com.bin.hbnu.dao;
+package com.bin.hbnu.mappers;
 
 import com.bin.hbnu.bean.Teacher;
 
